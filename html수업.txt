@@ -1,0 +1,110 @@
+[hn 태그 n 1~5]
+h1 가장 중요한 제목
+h6 가장 낮은 중요도의 제목
+
+목록태그
+<ul></ul> - 순서가 없는 목록(리스트의 형태)
+<ol></ol> - 순서가 있는 목록(리스트의 형태)
+<li></li> 리스트 태그
+--------------------------------
+<dl></dl> - 정의가 있는 목록
+<dt></dt> - 타이틀
+<dd></dd> - 설명 
+
+img파일종류
+png, jpg, svg
+
+상대경로 기준 현재 문서를 기준으로 위치를 설정
+같은위치 - 파일명.확장자
+아래위치 - 디렉토리명/파일명.확장자
+위위치 - ../파일명.확장자
+
+&값;
+&nbsp; - 공백
+&lt; - <
+&gt; - >
+&copy; - 카피라이팅
+&amp; - &
+
+변형서체
+<strong></strong> - 굵게 강조 semantic
+<b></b> - 굵게
+<em></em> - 이탤릭 강조 semantic
+<i></i> - 이탤릭
+<sup></sup> - 위첨자
+<sub></sub> - 아래첨자
+<s></s> - 취소선
+<u></u> - 밑줄
+
+<div></div>
+<span></span>
+----------------------
+<header><header>
+<section></section>
+<article></article>
+<main></main>
+<aside></aside>
+<nav></nav>
+<footer></footer>
+
+html - 구조
+css - 표현(디자인)
+js - 동작 구현
+
+css
+인라인
+내부스타일
+외부스타일
+
+인라인
+<p style="속성명:값; 속성명:값" ></p>
+
+문자관련 속성
+text-align: left/ right/ center/ jstify
+color: 글자색상/ #진수 색상 코드/ rgb(255, 255, 255)/ rgba(255, 255, 255, 투명도(0~1))
+font-family: 글꼴
+font-size: 크기 16px, 1em, 1rem, 100vw, 100vh
+font-weight: bold 500/ 100 ~ 900
+font-decoration: none/ underline
+font-style: normal/ italic
+text-indent: 들여쓰기
+letter-spacing: 글자사이 간격
+word-spacing: 단어사이 간격
+line-height: 행간 줄간격
+text-overflow: 말줄임 표시
+white-spacing: 공백표시 설정
+word-wrap: 줄바꿈 기준 설정
+
+배경관련 속성
+
+레이아웃 관련 속성
+
+여백관련 속성
+margin: 50px
+margin: 50px 100px
+margin: 50px 100px 70px
+margin : -50px 100px 7-px 30px
+margin-left:
+margin-right:
+margin-top:
+margin-botton:
+
+padding
+
+보더(외곽선)관련 속성
+porder-style: solid(단일선>double(이중선)
+
+
+선택자
+* - 전체 선택자
+태그명
+class -> 중복사용 가능
+id -> 중복사용 불가
+
+우선순위(명시도 Specificity)
+같ㅇ느 속성이 겹칠 때 명시도에 의해서 값이 적용
+인라인>내부>외부
+id>class>tag
+경로가 있는 것>경로가 없는 것
+important 무조건 최상위 적용
+

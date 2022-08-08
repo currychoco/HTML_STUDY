@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹표준</title>
+    <style type="text/css">
+        *{font-size: 14px; font-weight: normal;}
+        ul{color:red;}
+        ul.list_1{line-height:2; color:red !important;}
+        body>.list_1{color: green; font-size: 20px;}
+        #listNum{}
+        body>#listNum1>li.first{font-size:25px;}
+        body>#listNum1>li.last{font-size:25px;}
+        .list_2 li{}
+        .list_2>li>ul>li{color: blue;}
+    </style>
+</head>
+<body style = 'background-color: gray;'>
+    <a href="02.html" target="_blank" title="문서2로 이동합니다">문서2 이동</a>
+    <h1>문서의 &amp;제목</h1>
+    <h2>문서의 제목</h2>
+    <h6>문서의 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 제목</h6> 
+    <p>문단을 <br />만드는 태그</p>
+    <ul class="list_1" id="listNum1">
+        <li><p>목록만들기</p></li>
+        <li>목록만들기</li>
+        <li>목록만들기</li>
+        <li>목록만들기</li>
+        <li>목록만들기</li>
+    </ul>
+    <ol>
+        <li>목록만들기</li>
+        <li>목록만들기</li>
+        <li>목록만들기</li>
+        <li>목록만들기</li>
+        <li>목록만들기</li>
+    </ol>
+    <dl>
+        <dt>html은</dt>
+        <dd>웹문서를 만드는 기본언어이다.</dd>
+        <dd>마크업랭귀지이다.</dd>
+        <dt>css</dt>
+        <dd>웹문서의 스타일을 만드는 언어이다.</dd>
+        <dd>캐스케이딩 스타일 쉬트</dd>
+    </dl>
+    <ul>
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+        <li>메뉴4</li>
+    </ul>
+    <!-- ul>li*5>{메뉴&} -->
+    <ul class="list_2">
+        <li>메뉴1
+            <ul>
+                <li>메뉴1-1
+                    <ul>
+                        <li>메뉴1-1-1</li>
+                        <li>메뉴1-1-2</li>
+                        <li>메뉴1-1-3</li>
+                    </ul>
+                </li>
+                <li>메뉴1-2</li>
+                <li>메뉴1-3</li>
+                <li>메뉴1-4</li>
+            </ul>
+        </li>
+        <li>메뉴2
+            <ul>
+                <li>메뉴2-1</li>
+                <li>메뉴2-2</li>
+                <li>메뉴2-3</li>
+                <li>메뉴2-4</li>
+            </ul>
+        </li>
+        <li>메뉴3</li>
+        <li>메뉴4</li>
+    </ul>
+    <img src="image/card1.jpg" alt="유령" />
+    <img src="./image/card2.jpg" alt="묘비"/>
+</body>
+</html>
