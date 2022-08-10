@@ -1,0 +1,9 @@
+.free_bbs{border-collapse: collapse;margin: auto;}
+.free_bbs caption{display: none;}
+.free_bbs th{border-top: 2px solid #666;height: 35px;background-color: #e0e0e0;font-size: 14px;border-right: 1px solid #ccc;}
+.free_bbs th:last-child{border-right: none;}
+.free_bbs td{height: 40px;border-top: 1px solid#ccc;border-right: 1px solid #ccc; font-size:13px;color:#606060;text-align: center;}
+.free_bbs td:last-child{border-right: none;}
+.free_bbs td:nth-child(2){text-align: left;padding-left: 10px;}
+.free_bbs tr:last-child{border-bottom: 1px solid #666;}
+.free_bbs strong.notice{background-color: #09f; color: #fff;padding: 4px 10px;}
