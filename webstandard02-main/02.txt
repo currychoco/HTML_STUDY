@@ -1,0 +1,64 @@
+<table></table>
+<tr></tr>
+<td></td>
+<th></th>
+
+화면에서 가리기 : 
+display:none  
+visibility : hidden 
+
+선택자 
+nth-child(n) 부모!! 를 기준으로 몇번째 자식인지 선택 
+nth-of-type(n) 부모를 기준으로 같은 타입중에 몇번째 자식인지 선택 
+fisrt-child 부모로 부터 첫번째 자식요소 
+last-child 부모로 부터 마지막 자식요소 
+
+
+레이아웃 관련 속성들 
+
+float :  요소들을 현재 위치에서 띄워서 왼쪽이나 오른쪽 정렬 시켜준다. 
+- 앞에 오는 형제요소들이 float 되면 뒤에 오는 형제요소는 앞에 요소의 빈자리로 끌려올라간다. 
+이때 clear :  both  를 사용하면 끌려올라가는 것을 막을 수 있다. 
+- 모든 자식요소가 float 되면 부모요소는 높이가 0 
+   1. 부모요소에 height 값을 명시 
+   2. 자식요소를 float 시켰을때 부모요소에 overflow : hidden 속성을 적용하면 자동으로 높이가 들어간다. 
+   3. clearfix 클래스를 만들어서 사용  :  맨마지막 자식요소로 가상요소로 하나만들고 float 적용하지 않고 clear:both를 적용한다. 
+   4. float을 float으로 대응 
+     
+
+
+
+position 
+flex 
+
+
+overflow : visible , hidden , auto , scroll
+
+
+css pseudo selector  수도 선택자 :  사용자의 행동과 상호작용하는 상태를 선택 하는 선택자 
+
+대상요소 :hover {} 
+대상요소 :active {} 대상요소를 누르고 있을때 
+대상요소 : focus {} 대상요소에 커서가 들어 갔을때 
+대상요소 : checked {} 체크박스에 체크가 되었을때 
+..... 
+
+
+ 포지션 
+ 
+ position : static / relative / absolute / fixed / sticky 
+ 
+  position : static  기본 흐름 
+  position : fixed  기본흐름에서 빠져서 브라우저 기준으로 위치가 맞춰진다. 
+  position : relative 기본흐름을 유지 하면서 현재위치를 기준으로 위치가 맞춰진다. 
+ position : absolute 기본흐름에서 빠져서  포지션값이 있는 상위요소를 기준으로 위치가 맞춰진다. 
+                          상위요소중 포지션 값이 있는 상위요소가 없다면 문서의 시작을 기준으로 맞춰진다. 
+  left , right ,top ,bottom  :  static 이 아닌  포지션 값을 적용 했을 때만 적용 할수 있는 속성 
+  
+  position:absolute 또는 position:fixed 인 경우 센터 맞추기 
+  1. left:50%;top:50% ;margin-left:-넓이의 1/2 ; margin-top:-높이의 1/2 ; 
+  2.
+  3. 
+ 
+ 
+ 

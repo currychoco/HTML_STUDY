@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-         caption{display: none;}
-        .tb1{width: 500px;height: 500px;border: 1px solid #000;border-collapse: collapse;}
-        .tb1 td, .tb1 th{border: 1px solid #000;}
+        caption{display: none;}
+        .tb1{width: 500px;height: 500px;border:1px solid #000;border-collapse: collapse;}
+        .tb1 td,.tb1 th{border:1px solid #000}
         .tb1 th{height: 50px;}
         .tb1 tr.sec{height: 150px;}
         .tb1 td:first-child{background-color: aqua;}
@@ -18,10 +18,10 @@
     <table class="tb1">
         <caption>시간표</caption>
         <colgroup>
-            <col style="width: 50px;">
-            <col style="width: 250px;">
+            <col style="width:50px">
+            <col style="width:250px;">
             <col style="width: 100px;">
-            <col style="width: 50px; background-color:red;" span="2">
+            <col style="width:50px ;background-color:red" span="2">
         </colgroup>
         <thead>
             <tr>
@@ -31,34 +31,35 @@
                 <th scope="col">목요일</th>
                 <th scope="col">금요일</th>
             </tr>
-         </thead>
-         <tbody>
+        </thead>
+        <tbody>
             <tr class="sec">
                 <td rowspan="4"></td>
-                <td colspan="2"></td>    
+                <td colspan="2"></td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                
                 <td></td>
                 <td colspan="3"></td>
             </tr>
-            <tr>
-                
+            <tr>   
                 <td></td>
                 <td></td>
                 <td></td>
                 <td rowspan="2"></td>
             </tr>
-            <tr>
-            
+            <tr>   
                 <td></td>
                 <td></td>
                 <td></td>
-
             </tr>
-    </tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">시간을 잘 지킵시다</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>

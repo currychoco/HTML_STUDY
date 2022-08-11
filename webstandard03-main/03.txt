@@ -1,0 +1,13 @@
+
+가상요소 
+ ::after 대상요소의 마지막자식으로 요소추가 
+ ::before 대상요소의 첫번째 자식 요소로 추가 
+ 
+background-color
+background-image:url(이미지경로)
+background-repeat:repeat(기) / no-repeat / repeat-x / repeat-y 
+background-attachment : fixed / scroll (기)
+background-position
+background-size 
+ 
+ 
