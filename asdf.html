@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .required {color:red;}
+        input {padding:12px 0px;width:100%;}
+        button {margin:auto;}
+        h1 {text-align:center;margin-bottom:80px;}
+        h2,h4 {margin-bottom:10px;}
+        hr {border-top:2px solid black;}
+        .container {width:800px;margin: auto;}
+        .btn {width:100%;height:50px;background-color:rgb(242, 104, 53);line-height:50px;text-align:center;border:none;border-radius:30px;color:#fff;margin-top:50px;font-weight:bold;}
+        ul {list-style:none;padding:0px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>회원가입</h1>
+        <h2>기본정보</h2>
+        <hr>
+        <form>
+            <ul>
+                <li>
+                    <label for="id">
+                        <h4>아이디</h4>
+                    </label>
+                    <input type="text" id="id" placeholder="영문, 숫자...만 입력가능, 최소 8자 이상">
+                </li>
+                <li>
+                    <label for="password">
+                        <h4>비밀번호</h4>
+                    </label>
+                    <input type="text" id="password" placeholder="비밀번호는 영문+숫자를 혼합하여 8글자 이상 입력하시기 바랍니다.">
+                </li>
+                <li>
+                    <label for="password2">
+                        <h4>비밀번호 확인</h4>
+                    </label>
+                    <input type="text" id="password2" placeholder="비밀번호는 영문+숫자를 혼합하여 8글자 이상 입력하시기 바랍니다.">
+                </li>
+                <li>
+                    <label for="name">
+                        <h4>이름<span class="required">*</span></h4>
+                    </label>
+                    <input type="text" id="name" placeholder="이름을 입력해주세요.">
+                </li>
+                <li>
+                    <label for="nickname">
+                        <h4>닉네임</h4>
+                    </label>
+                    <input type="text" id="nickname" placeholder="닉네임">
+                </li>
+                <li>
+                    <label for="email">
+                        <h4>이메일<span class="required">*</span></h4>
+                    </label>
+                    <input type="text" id="email" placeholder="이메일을 입력해주세요.">
+                </li>
+                <li>
+                    <button type="button" class="btn">회원가입</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+
+ 미디어 쿼리  :css 를 화면 해상도에 맞춰서 바꿔주는것 해상도별 , 기기별  css 따로 연결해주는 방법
+ 기본 문법  
+ @media [only 또는 not] [미디어 유형(기기의 유형)] and (조건문) { 
+    실행될 css 구문 
+ }
+ 
+ 
+디바이스 방향
+orientation:landscape  => 가로방향 
+orientation:portrait => 세로방향 
+
+미디어 유형 
+all 
+screen 컴퓨터 화면 , 스마트 기기 화면 
+print 인쇄프린터
+tv  영상, 음성 출력되는 장치 
+speech  음성 출력 장치 
+projection 프로젝터 
+embossed 점자 인쇄 장치(화면을 읽어서 점자로 찍어 주는 장치 ) 
+.............
+
+
+min => 이상 
+min-width: 1200px  => 최소 1200px => 1200px 이상 
+
+max => 이하
+max-width: 1200px  => 최대 1200px => 1200px 이하 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
